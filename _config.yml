@@ -1,0 +1,6 @@
+name: Thunder in the Mountains
+markdown: redcarpet
+pygments: false
+
+exclude:    ['*.less']
+baseurl:    /

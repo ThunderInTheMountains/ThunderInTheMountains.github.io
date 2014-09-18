@@ -89,33 +89,34 @@ footer .navbar-wrapper .navbar-brand {
   min-width: 100%;
   min-height: 500px;
 }
-.marketing {
+.information {
   color: #ccc;
 }
-.marketing .col-lg-4 {
+.information .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
 }
-.marketing .col-lg-4 ul,
-.marketing .col-lg-4 li {
+.information .col-lg-4 ul,
+.information .col-lg-4 li {
   text-align: left;
 }
-.marketing .col-lg-4 p {
+.information .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
 }
-.marketing .col-lg-4 .cancelation span:first-child {
+.information .col-lg-4 .cancelation span:first-child {
   float: left;
 }
-.marketing .col-lg-4 .cancelation span:last-child {
+.information .col-lg-4 .cancelation span:last-child {
   float: right;
 }
-.marketing .col-lg-4:first-child h2,
-.marketing .col-lg-4:last-child h2 {
+.information .col-lg-4:first-child h2,
+.information .col-lg-4:last-child h2 {
   font-size: 30px;
   color: #999999;
 }
-.marketing h2 {
+.information h1,
+.information h2 {
   font-weight: normal;
   font-size: 36px;
   color: #fe0000;

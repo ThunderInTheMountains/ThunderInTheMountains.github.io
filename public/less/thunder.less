@@ -17,6 +17,7 @@
 @blueGrayLight:			#667799;
 
 @thunderRed:			#FE0000;
+@thunderYellow:			#FEFF00;
 
 
 @bodyBackground:        @grayDarker;
@@ -32,6 +33,20 @@ h1, h2, h3, h4 {
 	font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
+a {
+	color: @thunderRed;
+	&.highlight {
+		opacity: 0.7;
+		-moz-opacity: 0.7;
+		filter: 'alpha(opacity=70)';
+		&:hover {
+			opacity: 1;
+			-moz-opacity: 1;
+			filter: 'alpha(opacity=100)';
+		}
+	}
+}
+
 footer {
 	margin: 20px 0px;
 	.container {
@@ -40,6 +55,17 @@ footer {
 	.navbar-wrapper .navbar-brand {
 		font-size: inherit;
 		padding: 15px;
+	}
+}
+#leatherati {
+	a {
+		position: absolute;
+		bottom: 0px;
+		padding: 10px;
+		background-color: #000;
+		img {
+			width: 100%;
+		}
 	}
 }
 
@@ -111,6 +137,7 @@ footer {
 
 .information {
 	color: #ccc;
+	min-height: 400px;
 	.col-lg-4 {
 		margin-bottom: 20px;
 		text-align: center;
@@ -135,11 +162,18 @@ footer {
 			color: @grayLight;
 		}
 	}
+	p:first-of-type {
+		font-size: 21px;
+		font-weight: 300;
+		line-height: 1.4;
+		margin-bottom: 20px;
+	}
 	h1,
 	h2 {
 		font-weight: normal;
 		font-size: 36px;
 		color: @thunderRed;
+		text-shadow: 3px 3px 10px #000;
 	}
 }
 
@@ -157,6 +191,24 @@ footer {
 	}
 }
 
+#thunder_song {
+	h2 {
+		font-weight: bold;
+		text-align: center;
+		span {
+			display: block;
+			font-size: 24px;
+			color: @thunderYellow;
+		}
+	}
+	#jp_container_1 {
+		margin: 30px auto;
+		box-shadow: 5px 5px 10px #000;
+		.jp-no-solution a {
+			color: @thunderRed;
+		}
+	}
+}
 
 /*		RESPONSIVE CSS				--------------------------------------------------	*/
 @media (min-width: 768px) {

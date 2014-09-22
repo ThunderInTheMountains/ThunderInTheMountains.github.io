@@ -1,4 +1,11 @@
 <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+
+{% for i in (1..page.slide_number) %}
+<!-- 
+<pre>{{ i -1 }}</pre>
+ -->
+{% endfor %}
+
 <!-- Indicators -->
 	<ol class="carousel-indicators">
 		<li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
@@ -9,7 +16,7 @@
 	</ol>
 	<div class="carousel-inner">
 		<div class="item active">
-			<img src="/public/img/{{ page.slide1_image }}" alt="Presenters"> 
+			<img src="/public/img/{{ page.slide1_image }}" alt="{{ page.slide1_title }}"> 
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>{{ page.slide1_title }}</h1>
@@ -19,49 +26,42 @@
 			</div>
 		</div>
 		<div class="item">
-			<img src="/public/img/slide_vendors.jpg" alt="Vendors"> 
+			<img src="/public/img/{{ page.slide2_image }}" alt="{{ page.slide2_title }}"> 
 			<div class="container">
 				<div class="carousel-caption">
-					<h1>Vendors</h1>
-					<p>
-					Vendors are accepted on an invitation basis
-					</p>
-					<a class="btn btn-lg btn-danger" href="#" role="button">Vendor List</a>
+					<h1>{{ page.slide2_title }}</h1>
+					<p>{{ page.slide2_caption }}</p>
+					<a class="btn btn-lg btn-danger" href="{{ page.slide2_button_link }}" role="button">{{ page.slide2_button_text }}</a>
 				</div>
 			</div>
 		</div>
 		<div class="item">
-			<img src="/public/img/slide_dungeon.jpg" alt="Dungeon"> 
+			<img src="/public/img/{{ page.slide3_image }}" alt="{{ page.slide3_title }}"> 
 			<div class="container">
 				<div class="carousel-caption">
-					<h1>Dungeon</h1>
-					<p>
-					40,000 sq. ft. dungeon, and puppy mosh pit and pony track
-					</p>
-					<a class="btn btn-lg btn-danger" href="#" role="button">Dungeon Rules</a>
+					<h1>{{ page.slide3_title }}</h1>
+					<p>{{ page.slide3_caption }}</p>
+					<a class="btn btn-lg btn-danger" href="{{ page.slide3_button_link }}" role="button">{{ page.slide3_button_text }}</a>
 				</div>
 			</div>
 		</div>
 		<div class="item">
-			<img src="/public/img/slide_bootblacks.jpg" alt="Bootblacks"> 
+			<img src="/public/img/{{ page.slide4_image }}" alt="{{ page.slide4_title }}"> 
 			<div class="container">
 				<div class="carousel-caption">
-					<h1>Bootblacking</h1>
-					<p>
-					Award winning bootblacks happily care for your leather
-					</p>
+					<h1>{{ page.slide4_title }}</h1>
+					<p>{{ page.slide4_caption }}</p>
+					<a class="btn btn-lg btn-danger" href="{{ page.slide4_button_link }}" role="button">{{ page.slide4_button_text }}</a>
 				</div>
 			</div>
 		</div>
 		<div class="item">
-			<img src="/public/img/slide_volunteers.jpg" alt="Volunteers"> 
+			<img src="/public/img/{{ page.slide5_image }}" alt="{{ page.slide5_title }}"> 
 			<div class="container">
 				<div class="carousel-caption">
-					<h1>Volunteers</h1>
-					<p>
-					The success of Thunder in the Mountains is due to many volunteer members
-					</p>
-					<a class="btn btn-lg btn-danger" href="#" role="button">Volunteer</a>
+					<h1>{{ page.slide5_title }}</h1>
+					<p>{{ page.slide5_caption }}</p>
+					<a class="btn btn-lg btn-danger" href="{{ page.slide5_button_link }}" role="button">{{ page.slide5_button_text }}</a>
 				</div>
 			</div>
 		</div>

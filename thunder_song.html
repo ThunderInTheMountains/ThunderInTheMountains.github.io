@@ -1,0 +1,81 @@
+---
+layout: default
+title: Thunder Song
+---
+
+<div class="container information">
+	<div class="row">
+		<div class="col-md-10 col-sm-offset-2">
+			<h1>{{ page.title }}</h1>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$("#jquery_jplayer_1").jPlayer({
+						ready: function () {
+							$(this).jPlayer("setMedia", {
+								mp3: "/public/mp3/ThunderSong.mp3"
+							});
+						},
+						supplied: "mp3"
+					});
+				});
+			</script>
+			<div id="thunder_song">
+				<h2>
+					Thunder in the Mountains Song
+					<span>by</span>
+					<span>Master M and the Rhythm Slaves</span>
+				</h2>
+				<div id="jquery_jplayer_1"></div>
+				<div class="jp-audio" id="jp_container_1">
+					<div class="jp-type-single">
+						<div class="jp-gui jp-interface">
+							<ul class="jp-controls">
+								<li><a tabindex="1" class="jp-play" href="javascript:;">play</a></li>
+								<li><a tabindex="1" class="jp-pause" href="javascript:;" style="display: none;">pause</a></li>
+								<li><a tabindex="1" class="jp-stop" href="javascript:;">stop</a></li>
+								<li><a title="mute" tabindex="1" class="jp-mute" href="javascript:;">mute</a></li>
+								<li><a title="unmute" tabindex="1" class="jp-unmute" href="javascript:;" style="display: none;">unmute</a></li>
+								<li><a title="max volume" tabindex="1" class="jp-volume-max" href="javascript:;">max volume</a></li>
+							</ul>
+							<div class="jp-progress">
+								<div class="jp-seek-bar" style="width: 100%;">
+									<div class="jp-play-bar" style="width: 0%;">
+									</div>
+								</div>
+							</div>
+							<div class="jp-volume-bar">
+								<div class="jp-volume-bar-value" style="width: 80%;">
+								</div>
+							</div>
+							<div class="jp-time-holder">
+								<div class="jp-current-time">
+									00:00
+								</div>
+								<div class="jp-duration">
+									-03:29
+								</div>
+								<ul class="jp-toggles">
+									<li><a title="repeat" tabindex="1" class="jp-repeat" href="javascript:;">repeat</a></li>
+									<li><a title="repeat off" tabindex="1" class="jp-repeat-off" href="javascript:;" style="display: none;">repeat off</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="jp-details">
+						</div>
+						<div class="jp-no-solution" style="display: none;">
+							<p>
+								Your browser does not support the media player. 
+							</p>
+							<p>
+								You can <a href="public/mp3/ThunderSong.mp3" title="Thunder in the Mountains Song">download</a> instead. 
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+

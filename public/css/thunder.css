@@ -163,14 +163,18 @@ footer .navbar-wrapper .navbar-brand {
 .featurette-heading span {
   font-size: 28px;
 }
-#thunder_song h2 {
-  font-weight: bold;
-  text-align: center;
+#what_to_expect ol > li {
+  margin: 10px 0px;
 }
-#thunder_song h2 span {
+#what_to_expect ul > li {
+  margin: 5px 0px;
+}
+#thunder_song h2 {
   display: block;
   font-size: 24px;
   color: #feff00;
+  font-weight: bold;
+  text-align: center;
 }
 #thunder_song #jp_container_1 {
   margin: 30px auto;
@@ -180,6 +184,27 @@ footer .navbar-wrapper .navbar-brand {
   color: #fe0000;
 }
 /*		RESPONSIVE CSS				--------------------------------------------------	*/
+/*		XS		*/
+@media (max-width: 768px) {
+  .navbar #logo {
+    max-width: 80px;
+  }
+  .carousel {
+    height: 400px;
+  }
+  .carousel .item {
+    height: 400px;
+  }
+  .carousel .item > img {
+    min-height: 400px;
+    max-height: 100%;
+    min-width: inherit;
+    max-width: inherit;
+  }
+  .information {
+    margin-top: 30px;
+  }
+}
 @media (min-width: 768px) {
   .navbar-wrapper {
     margin-top: 20px;
@@ -199,23 +224,6 @@ footer .navbar-wrapper .navbar-brand {
   }
   .featurette-heading {
     font-size: 50px;
-  }
-}
-@media (max-width: 768px) {
-  .navbar #logo {
-    max-width: 80px;
-  }
-  .carousel {
-    height: 400px;
-  }
-  .carousel .item {
-    height: 400px;
-  }
-  .carousel .item > img {
-    min-height: 400px;
-    max-height: 100%;
-    min-width: inherit;
-    max-width: inherit;
   }
 }
 @media (max-width: 992px) {

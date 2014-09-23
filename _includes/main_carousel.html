@@ -1,70 +1,29 @@
 <div id="mainCarousel" class="carousel slide" data-ride="carousel">
-
-{% for i in (1..page.slide_number) %}
-<!-- 
-<pre>{{ i -1 }}</pre>
- -->
-{% endfor %}
-
-<!-- Indicators -->
 	<ol class="carousel-indicators">
-		<li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#mainCarousel" data-slide-to="1"></li>
-		<li data-target="#mainCarousel" data-slide-to="2"></li>
-		<li data-target="#mainCarousel" data-slide-to="3"></li>
-		<li data-target="#mainCarousel" data-slide-to="4"></li>
+	{% for i in (1..page.slide_number) %}
+		<li data-target="#mainCarousel" data-slide-to="{{ i | minus:1 }}" class="{% if i == 1 %}active{% endif %}"></li>
+	{% endfor %}
 	</ol>
 	<div class="carousel-inner">
-		<div class="item active">
-			<img src="/public/img/{{ page.slide1_image }}" alt="{{ page.slide1_title }}"> 
+	{% for i in (1..page.slide_number) %}
+		{% capture title %}slide{{ i }}_title{% endcapture %}
+		{% capture image %}slide{{ i }}_image{% endcapture %}
+		{% capture caption %}slide{{ i }}_caption{% endcapture %}
+		{% capture button_text %}slide{{ i }}_button_text{% endcapture %}
+		{% capture button_link %}slide{{ i }}_button_link{% endcapture %}
+		<div class="item {% if i == 1 %}active{% endif %}">
+			<img src="/public/img/{{ page[image] }}" alt="{{ page[title] }}"> 
 			<div class="container">
 				<div class="carousel-caption">
-					<h1>{{ page.slide1_title }}</h1>
-					<p>{{ page.slide1_caption }}</p>
-					<a class="btn btn-lg btn-danger" href="{{ page.slide1_button_link }}" role="button">{{ page.slide1_button_text }}</a>
+					<h1>{{ page[title] }}</h1>
+					<p>{{ page[caption] }}</p>
+					{% if page[button_link] != '' %}
+					<a class="btn btn-lg btn-danger" href="{{ page[button_link] }}" role="button">{{ page[button_text] }}</a>
+					{% endif %}
 				</div>
 			</div>
 		</div>
-		<div class="item">
-			<img src="/public/img/{{ page.slide2_image }}" alt="{{ page.slide2_title }}"> 
-			<div class="container">
-				<div class="carousel-caption">
-					<h1>{{ page.slide2_title }}</h1>
-					<p>{{ page.slide2_caption }}</p>
-					<a class="btn btn-lg btn-danger" href="{{ page.slide2_button_link }}" role="button">{{ page.slide2_button_text }}</a>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<img src="/public/img/{{ page.slide3_image }}" alt="{{ page.slide3_title }}"> 
-			<div class="container">
-				<div class="carousel-caption">
-					<h1>{{ page.slide3_title }}</h1>
-					<p>{{ page.slide3_caption }}</p>
-					<a class="btn btn-lg btn-danger" href="{{ page.slide3_button_link }}" role="button">{{ page.slide3_button_text }}</a>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<img src="/public/img/{{ page.slide4_image }}" alt="{{ page.slide4_title }}"> 
-			<div class="container">
-				<div class="carousel-caption">
-					<h1>{{ page.slide4_title }}</h1>
-					<p>{{ page.slide4_caption }}</p>
-					<a class="btn btn-lg btn-danger" href="{{ page.slide4_button_link }}" role="button">{{ page.slide4_button_text }}</a>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<img src="/public/img/{{ page.slide5_image }}" alt="{{ page.slide5_title }}"> 
-			<div class="container">
-				<div class="carousel-caption">
-					<h1>{{ page.slide5_title }}</h1>
-					<p>{{ page.slide5_caption }}</p>
-					<a class="btn btn-lg btn-danger" href="{{ page.slide5_button_link }}" role="button">{{ page.slide5_button_text }}</a>
-				</div>
-			</div>
-		</div>
+	{% endfor %}
 	</div>
 	<a class="left carousel-control" href="#mainCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#mainCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> 
 </div>

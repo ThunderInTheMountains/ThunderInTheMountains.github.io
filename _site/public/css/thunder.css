@@ -203,6 +203,9 @@ footer .navbar-wrapper .navbar-brand {
   padding: 0px;
   list-style-type: none;
 }
+#thunder_song {
+  margin-top: 50px;
+}
 #thunder_song h2 {
   display: block;
   font-size: 24px;
@@ -216,6 +219,11 @@ footer .navbar-wrapper .navbar-brand {
 }
 #thunder_song #jp_container_1 .jp-no-solution a {
   color: #fe0000;
+}
+#thunder_song .lyrics {
+  margin-top: 40px;
+  font-size: 12px;
+  text-align: center;
 }
 /*		RESPONSIVE CSS				--------------------------------------------------	*/
 /*		XS		*/

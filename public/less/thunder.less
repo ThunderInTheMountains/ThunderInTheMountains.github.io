@@ -34,7 +34,10 @@ h1, h2, h3, h4 {
 }
 
 a {
-	color: @thunderRed;
+	color: @thunderYellow;
+	&:hover {
+		color: @thunderRed;
+	}
 	&.highlight {
 		opacity: 0.7;
 		-moz-opacity: 0.7;
@@ -44,6 +47,9 @@ a {
 			-moz-opacity: 1;
 			filter: 'alpha(opacity=100)';
 		}
+	}
+	img {
+		border: none;
 	}
 }
 
@@ -130,7 +136,7 @@ footer {
 			top: 0;
 			left: 0;
 			min-width: 100%;
-			min-height: 500px;
+			min-height: 400px;
 		}
 	}
 }
@@ -200,6 +206,35 @@ footer {
 	}
 }
 
+#after_thunder {
+	margin-top: 30px;
+	h4 {
+		margin: 20px 0px;
+		span {
+			display: block;
+		}
+	}
+	h5 {
+		margin: 0px 30px;
+		line-height: 20px;
+		span {
+			display: inline-block;
+			width: 50px;
+		}
+	}
+	img {
+		width: 80%;
+	}
+	.order_now {
+		margin-left: 30px;
+	}
+	> ul {
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+	}
+}
+
 #thunder_song {
 	h2 {
 		display: block;
@@ -253,14 +288,16 @@ footer {
 		}
 	}
 
-	.carousel-caption p {
-		margin-bottom: 20px;
-		font-size: 21px;
-		line-height: 1.4;
-	}
+	.carousel {
+		.carousel-caption p {
+			margin-bottom: 20px;
+			font-size: 21px;
+			line-height: 1.4;
+		}
 
-	.featurette-heading {
-		font-size: 50px;
+		.featurette-heading {
+			font-size: 50px;
+		}
 	}
 }
 
@@ -272,6 +309,12 @@ footer {
 		}
 		.container {
 			width: auto;
+		}
+	}
+	.carousel {
+		height: 400px;
+		.item {
+			height: 400px;
 		}
 	}
 }

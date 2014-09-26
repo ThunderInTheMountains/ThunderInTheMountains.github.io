@@ -330,4 +330,55 @@ footer {
 		margin: 20px auto;
 	}
 }
+@media (min-width: 1400px) {
+	.carousel {
+		height: 600px;
+		.item {
+			height: 600px;
+		}
+	}
+}
+@media (min-width: 1600px) {
+	.carousel {
+		height: 700px;
+		.item {
+			height: 700px;
+		}
+	}
+}
 
+@media (max-width: 560px) {
+	.carousel {
+		height: 300px;
+		.item {
+			height: 300px;
+			> img {
+				min-height: 300px;
+				max-height: 100%;
+				min-width: inherit;
+				max-width: inherit;
+			}
+		}
+		h1 {
+			padding-bottom: 0px;
+			font-size: 24px;
+		}
+	}
+}
+@media (max-width: 360px) {
+	.carousel {
+		height: 260px;
+		.item {
+			height: 260px;
+			> img {
+				min-height: 260px;
+			}
+		}
+		.carousel-caption {
+			padding-bottom: 20px;
+		}
+		.carousel-indicators {
+			bottom: 0px;
+		}
+	}
+}

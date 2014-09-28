@@ -1,0 +1,13 @@
+<div class="image_sidebar">
+{% for i in (1..page.image_number) %}
+	{% capture title %}image{{ i }}_title{% endcapture %}
+	{% capture image %}image{{ i }}_image{% endcapture %}
+	<div>
+	<img src="/public/img/{{ page[image] }}" alt="{{ page[title] }}" class="img-responsive img-thumbnail" />
+	{{ page[title] }}
+	</div>
+
+
+
+{% endfor %}
+</div>

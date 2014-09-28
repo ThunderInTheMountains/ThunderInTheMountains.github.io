@@ -14,13 +14,13 @@
 				<div class="navbar-collapse navbar-collapse1 collapse">
 					<ul class="nav navbar-nav navbar-left">
 						<li class="{% if page.title == 'Thunder in the Mountains' %}active{% endif %}"><a href="/">Home</a></li>
-						<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registration <span class="caret"></span></a>
+						<li class="dropdown{% if page.title == 'Registration' or page.title == 'Volunteers' %} active{% endif %}"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registration <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="#">Register</a></li>
 							<li><a href="#">Merchandise Order (not for registering)</a></li>
 							<li class="divider"></li>
 							<li><a href="#">Vendor Registration</a></li>
-							<li><a href="#">Volunteer Registration</a></li>
+							<li><a href="volunteers.html">Volunteer Registration</a></li>
 						</ul>
 						</li>
 						<li class="{% if page.title == 'Presenters' %}active{% endif %}"><a href="/presenters.html">Presenters</a></li>
@@ -35,8 +35,8 @@
 							<li><a href="/hotel_forms.html">Hotel Forms</a></li>
 						</ul>
 						</li>
-						<li class="{% if page.title == 'Volunteers' %}active{% endif %}"><a href="/volunteers.html">Volunteers</a></li>
-						<li class="{% if page.title == 'Dungeon Rules' %}active{% endif %}"><a href="/dungeon_rules.html">Dungeon Rules</a></li>
+						<li class="{% if page.title == 'Photo Gallery' %}active{% endif %}"><a href="photos.html">Photo Gallery</a></li>
+						<li class="{% if page.title == 'Dungeon' %}active{% endif %}"><a href="dungeon.html">Dungeon</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a id="facebook" href="http://www.facebook.com/ThunderintheMountains" class="highlight"><img alt="Facebook" title="Facebook" src="/public/img/facebook.png"></a></li>

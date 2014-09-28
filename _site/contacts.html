@@ -69,7 +69,7 @@
 							<li><a href="#">Merchandise Order (not for registering)</a></li>
 							<li class="divider"></li>
 							<li><a href="#">Vendor Registration</a></li>
-							<li><a href="#">Volunteer Registration</a></li>
+							<li><a href="volunteers.html">Volunteer Registration</a></li>
 						</ul>
 						</li>
 						<li class=""><a href="/presenters.html">Presenters</a></li>
@@ -84,8 +84,8 @@
 							<li><a href="/hotel_forms.html">Hotel Forms</a></li>
 						</ul>
 						</li>
-						<li class=""><a href="/volunteers.html">Volunteers</a></li>
-						<li class=""><a href="/dungeon_rules.html">Dungeon Rules</a></li>
+						<li class=""><a href="photos.html">Photo Gallery</a></li>
+						<li class=""><a href="dungeon.html">Dungeon</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a id="facebook" href="http://www.facebook.com/ThunderintheMountains" class="highlight"><img alt="Facebook" title="Facebook" src="/public/img/facebook.png"></a></li>
@@ -99,11 +99,55 @@
 
 <div class="container information">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-2">
+		<div class="col-md-2">
+		
+		</div>
+		<div class="col-md-10 ">
 			<h1>Contacts</h1>
 			<p>
-Coming soon!
+Need to get in touch with us? Have a question about the contest, how to register, or maybe just want to get on our mailing list to keep yourself informed? Use the pull-down menu below to connect with us, add your e-mail address, your snail mail address (optional), and any message you'd like to send. We'll get back with you just as soon as possible.
 </p>
+
+
+<form class="form-horizontal" role="form" enctype="x-www-form-urlencoded" action="http://www.thunderinthemountains.com/scripts/contact.cgi" method="post">
+	<div class="form-group form-group-sm">
+		<label for="mailto" class="col-sm-2 control-label">Recipient</label>
+		<div class="col-sm-10">
+			<select id="mailto" name="mailto" class="form-control">
+				<option value="Play Party Information">Play Party Information</option>
+				<option value="Presenter Information">Presenter Information</option>
+				<option value="Registration Information">Registration Information</option>
+				<option value="Thunder in the Mountains">Thunder in the Mountains</option>
+				<option value="Vendor Information">Vendor Information</option>
+				<option value="Volunteer Coordinator">Volunteer Coordinator</option>
+				<option value="Web Site">Web Site</option>
+			</select>
+		</div>
+	</div>
+	<div class="form-group form-group-sm">
+		<label for="Name" class="col-sm-2 control-label">Your Name</label>
+		<div class="col-sm-10">
+			<input type="text" id="Name" name="Name" placeholder="Name" class="form-control" />
+		</div>
+	</div>
+	<div class="form-group form-group-sm">
+		<label for="E-mail" class="col-sm-2 control-label">Your Email</label>
+		<div class="col-sm-10">
+			<input type="email" id="E-mail" name="E-mail" placeholder="Email" class="form-control" />
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="Message" class="col-sm-2 control-label">Message</label>
+		<div class="col-sm-10">
+			<textarea id="Message" name="Message" class="form-control" rows="6"></textarea>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-offset-2 col-sm-10">
+			<input type="submit" name="SUBMIT" value="Send Message" class="btn btn-default" />
+		</div>
+	</div>
+</form>
 
 		</div>
 	</div>

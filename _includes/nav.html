@@ -14,13 +14,13 @@
 				<div class="navbar-collapse navbar-collapse1 collapse">
 					<ul class="nav navbar-nav navbar-left">
 						<li class="{% if page.title == 'Thunder in the Mountains' %}active{% endif %}"><a href="/">Home</a></li>
-						<li class="dropdown{% if page.title == 'Registration' or page.title == 'Volunteers' %} active{% endif %}"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registration <span class="caret"></span></a>
+						<li class="dropdown{% if page.title == 'Registration' or page.title == 'Additional Order' or page.title == 'Vendor Registration' or page.title == 'Volunteer Registration' %} active{% endif %}"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registration <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">Register</a></li>
-							<li><a href="#">Merchandise Order (not for registering)</a></li>
+							<li><a href="registration_member.html">Register</a></li>
+							<li><a href="merchandise_order.html">Merchandise Order (not for registering)</a></li>
 							<li class="divider"></li>
-							<li><a href="#">Vendor Registration</a></li>
-							<li><a href="volunteers.html">Volunteer Registration</a></li>
+							<li><a href="registration_vendor.html">Vendor Registration</a></li>
+							<li><a href="registration_volunteer.html">Volunteer Registration</a></li>
 						</ul>
 						</li>
 						<li class="{% if page.title == 'Presenters' %}active{% endif %}"><a href="/presenters.html">Presenters</a></li>
@@ -28,11 +28,11 @@
 						<li class="{% if page.title == 'Hotel Information' %}active{% endif %}"><a href="/hotel.html">Hotel</a></li>
 						<li class="dropdown{% if page.title == 'Hotel Vendor Forms' or page.title == 'Vendor Links' %} active{% endif %}"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vendors <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">Vendor Registration</a></li>
-							<li><a href="/vendor_links.html">Vendor Links</a></li>
+							<li><a href="registration_vendor.html">Vendor Registration</a></li>
+							<li><a href="vendor_links.html">Vendor Links</a></li>
 							<li class="divider"></li>
 							<li class="dropdown-header"></li>
-							<li><a href="/hotel_forms.html">Hotel Forms</a></li>
+							<li><a href="hotel_forms.html">Hotel Forms</a></li>
 						</ul>
 						</li>
 						<li class="{% if page.title == 'Photo Gallery' %}active{% endif %}"><a href="photos.html">Photo Gallery</a></li>

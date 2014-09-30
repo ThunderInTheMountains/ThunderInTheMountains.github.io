@@ -143,9 +143,16 @@ footer {
 
 .image_sidebar {
 	margin-top: 100px;
-	div {
-		margin: 20px 0px;
+	div.border {
+		margin: 10px 0px;
 		text-align: center;
+		.img-thumbnail {
+			border: none;
+			background-color: #555;
+		}
+	}
+	&.home {
+		margin-top: 0px;
 	}
 }
 
@@ -229,6 +236,17 @@ footer {
 
 .form-control-static {
 	display: block;
+}
+
+.modal {
+	.modal-dialog {
+		.modal-content {
+			background-color: #555;
+			button {
+				margin-bottom: 10px;
+			}
+		}
+	}
 }
 
 #what_to_expect {

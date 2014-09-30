@@ -17,7 +17,7 @@
 				<div class="carousel-caption">
 					<h1>{{ page[title] }}</h1>
 					<p>{{ page[caption] }}</p>
-					{% if page[button_link] != '' %}
+					{% if page[button_link] %}
 					<a class="btn btn-lg btn-danger" href="{{ page[button_link] }}" role="button">{{ page[button_text] }}</a>
 					{% endif %}
 				</div>

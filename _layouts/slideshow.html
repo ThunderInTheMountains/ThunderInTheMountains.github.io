@@ -14,7 +14,7 @@
 
 {% include nav.html %}
 
-{% include main_carousel.html %}
+{% if page.slide_number > 0 %}{% include main_carousel.html %}{% endif %}
 
 {{ content }}
 

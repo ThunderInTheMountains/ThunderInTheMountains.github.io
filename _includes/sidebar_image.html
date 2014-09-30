@@ -1,13 +1,22 @@
-<div class="image_sidebar">
+<div class="image_sidebar hidden-sm hidden-xs">
 {% for i in (1..page.image_number) %}
 	{% capture title %}image{{ i }}_title{% endcapture %}
 	{% capture image %}image{{ i }}_image{% endcapture %}
-	<div>
-	<img src="/public/img/{{ page[image] }}" alt="{{ page[title] }}" class="img-responsive img-thumbnail" />
+	{% capture size %}image{{ i }}_size{% endcapture %}
+	<div class="border">
+	<a href="#" data-toggle="modal" data-target="#imageModal{{ i }}"><img src="/public/img/{{ page[image] }}" alt="{{ page[title] }}" class="img-responsive img-thumbnail" /></a>
 	{{ page[title] }}
 	</div>
-
-
-
+	<div class="modal fade" id="imageModal{{ i }}" tabindex="-1" role="dialog" aria-labelledby="imageModal{{ i }}Label" aria-hidden="true">
+		<div class="modal-dialog modal-sm modal-{{ page[size] }}">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> 
+					<img src="/public/img/{{ page[image] }}" alt="{{ page[title] }}" class="img-responsive" />
+				</div>
+			</div>
+		</div>
+	</div>
 {% endfor %}
 </div>
+

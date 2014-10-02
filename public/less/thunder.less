@@ -242,8 +242,8 @@ footer {
 	.modal-dialog {
 		.modal-content {
 			background-color: #555;
-			button {
-				margin-bottom: 10px;
+			img {
+				margin: 0px auto;
 			}
 		}
 	}
@@ -253,8 +253,12 @@ footer {
 		top: 15px;
 		font-size: 28px;
 		opacity: 0.5;
+		-moz-opacity: 0.5;
+		filter: 'alpha(opacity=50)';
 		&:hover {
 			opacity: 0.8;
+			-moz-opacity: 0.8;
+			filter: 'alpha(opacity=80)';
 		}
 	}
 }
@@ -312,10 +316,50 @@ footer {
 		.img-thumbnail {
 			border: none;
 			background-color: @gray;
+			cursor: pointer;
+			&:hover {
+				background-color: @grayLight;
+			}
 		}
 	}
 }
 
+#warning {
+	width: 60%;
+	max-width: 1050px;
+	margin: 10% auto;
+	padding: 5%;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	box-shadow: 5px 5px 10px #000;
+	font-size: 24px;
+	color: #ccc;
+	background-color: #000;
+	a {
+		display: block;
+		width: 150px;
+		height: 75px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		&:first-child {
+			float: left;
+			background-image: url("/public/img/enter_button_off.jpg");
+			&:hover {
+				background-image: url("/public/img/enter_button_on.jpg");
+			}
+		}
+		&:last-child {
+			float: right;
+			background-image: url("/public/img/exit_button_off.jpg");
+			&:hover {
+				background-image: url("/public/img/exit_button_on.jpg");
+			}
+		}
+	}
+	img {
+		display: none;
+	}
+}
 
 /*		RESPONSIVE CSS				--------------------------------------------------	*/
 /*		XS		*/

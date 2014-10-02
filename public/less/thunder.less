@@ -247,6 +247,16 @@ footer {
 			}
 		}
 	}
+	button {
+		position: absolute;
+		right: 25px;
+		top: 15px;
+		font-size: 28px;
+		opacity: 0.5;
+		&:hover {
+			opacity: 0.8;
+		}
+	}
 }
 
 #what_to_expect {
@@ -296,19 +306,13 @@ footer {
 	}
 }
 
-.image-set {
-	> div {
+#gallery {
+	.border {
 		margin: 20px 0px;
 		.img-thumbnail {
 			border: none;
 			background-color: @gray;
 		}
-	}
-}
-
-#galleryModal {
-	.modal-dialog {
-//		width: 460px;
 	}
 }
 

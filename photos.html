@@ -11,58 +11,15 @@ title: Photo Gallery
 </div>
 
 <div id="gallery" class="row">
-	<div class="col-sm-2">
-
-
-
-
-
-<!-- 
-<ul>
-{% for member in site.data.members %}
-  <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
-    </a>
-  </li>
+{% for gallery in site.data.gallery %}
+	{% if gallery.files != null %}
+		<div class="col-sm-2">
+		{% for file in gallery.files %}
+		<div class="border">
+		<img src="/public/img/gallery/{{ gallery.col }}/{{ file.name }}" alt="" class="img-responsive img-thumbnail" />
+		</div>
+		{% endfor %}
+		</div>
+	{% endif %}
 {% endfor %}
-</ul>
- -->
-
-
-
-
-
-
-	</div>
-
-	<div class="col-sm-2">
-
-
-<ul>
-{% for image in site.data.gallery %}
-	<li>
-		({{ image.file}} file)
-	</li>
-{% endfor %}
-</ul>
-
-
-
-
-
-
-	</div>
-
-	<div class="col-sm-2">
-	</div>
-
-	<div class="col-sm-2">
-	</div>
-
-	<div class="col-sm-2">
-	</div>
-
-	<div class="col-sm-2">
-	</div>
 </div>

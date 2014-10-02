@@ -12,26 +12,57 @@ title: Photo Gallery
 
 <div id="gallery" class="row">
 	<div class="col-sm-2">
-	{% image_set public/img/gallery/1 --class-one=img-responsive --class-two=img-thumbnail --container-tag=div --wrap-tag=div %}
+
+
+
+
+
+<!-- 
+<ul>
+{% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+ -->
+
+
+
+
+
+
 	</div>
 
 	<div class="col-sm-2">
-	{% image_set public/img/gallery/2 --class-one=img-responsive --class-two=img-thumbnail --container-tag=div --wrap-tag=div %}
+
+
+<ul>
+{% for image in site.data.gallery %}
+	<li>
+		({{ image.file}} file)
+	</li>
+{% endfor %}
+</ul>
+
+
+
+
+
+
 	</div>
 
 	<div class="col-sm-2">
-	{% image_set public/img/gallery/3 --class-one=img-responsive --class-two=img-thumbnail --container-tag=div --wrap-tag=div %}
 	</div>
 
 	<div class="col-sm-2">
-	{% image_set public/img/gallery/4 --class-one=img-responsive --class-two=img-thumbnail --container-tag=div --wrap-tag=div %}
 	</div>
 
 	<div class="col-sm-2">
-	{% image_set public/img/gallery/5 --class-one=img-responsive --class-two=img-thumbnail --container-tag=div --wrap-tag=div %}
 	</div>
 
 	<div class="col-sm-2">
-	{% image_set public/img/gallery/6 --class-one=img-responsive --class-two=img-thumbnail --container-tag=div --wrap-tag=div %}
 	</div>
 </div>

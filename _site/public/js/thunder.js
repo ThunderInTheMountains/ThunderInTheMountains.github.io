@@ -20,6 +20,11 @@
 		return null;
 	}
 
+	$( document ).ready( function() {
+		if ( readCookie( 'thunderConsent' ) != 'accept' && window.location.href.indexOf( 'warning' ) < 0 ) {
+			window.location.replace(' /warning.html' );
+		}
+	});
 	$( window ).load( function() {
 		$( '.carousel a.carousel-control' ).on( 'click', function() {
 			$(this).blur();
@@ -35,11 +40,6 @@
 		$( '#warning a:last-child' ).on( 'click', function() {
 			createCookie( 'thunderConsent', '', -1 );
 		});
-	});
-	$( document ).ready( function() {
-		if ( readCookie( 'thunderConsent' ) != 'accept' && window.location.href.indexOf( 'warning' ) < 0 ) {
-			window.location.replace(' /warning.html' );
-		}
 	});
 })();
 

@@ -3,6 +3,15 @@ layout: info
 title: Vendor Links
 ---
 
-<p>
-Coming soon!
-</p>
+<div id="vendor_links">
+{% for vendor in site.data.vendors %}
+	<div class="vendor">
+		<a href="{{ vendor.link }}" target="_blank">
+		{% if vendor.image != null %}
+			<img alt="{{ vendor.name }}" title="{{ vendor.name }}" src="/public/img/vendors/{{ vendor.image }}" />
+		{% endif %}
+		{{ vendor.name }}
+		</a>
+	</div>
+{% endfor %}
+</div>

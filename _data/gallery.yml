@@ -53,7 +53,6 @@
   - name: 53.jpg
   - name: 54.jpg
   - name: 55.jpg
-  - name: 56.jpg
   - name: 57.jpg
 
 - col: 4
@@ -86,13 +85,10 @@
   - name: P4.jpg
   - name: P6.jpg
   - name: P7.jpg
-  - name: P9.jpg
   - name: P10.jpg
   - name: P11.jpg
-  - name: P12.jpg
   - name: P13.jpg
   - name: P14.jpg
-  - name: P15.jpg
   - name: P16.jpg
   - name: P18.jpg
   - name: P21.jpg
@@ -106,10 +102,8 @@
   - name: P24.jpg
   - name: P26.jpg
   - name: P27.jpg
-  - name: P28.jpg
   - name: P29.jpg
   - name: P30.jpg
-  - name: P31.jpg
   - name: P32.jpg
   - name: P34.jpg
   - name: P35.jpg

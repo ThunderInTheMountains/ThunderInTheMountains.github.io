@@ -1,8 +1,96 @@
 ---
-layout: info
+layout: default
 title: Presenters
 ---
 
-<p>
-Coming soon!
-</p>
+<!-- 
+<div id="presenters">
+	<div class="container information">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-10">
+				<h1>{{ page.title }}</h1>
+				<p>
+				Coming soon!
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+
+
+
+<div id="presenters">
+	<div class="container information">
+		<div class="row">
+			<div class="col-md-offset-2 col-md-10">
+				<h1>{{ page.title }}</h1>
+				<p>
+				Thunder in the Mountains is proud to present a fantastic lineup of presenters for 2015
+				</p>
+			</div>
+		</div>
+	{% for presenter in site.data.presenters %}
+		<div class="row">
+			<div class="col-md-2">
+				<div class="border">
+					<a href="#" data-toggle="modal" data-target="#imageModal{{ forloop.index }}_1"><img class="img-responsive img-thumbnail" alt="{{ presenter.name }}" src="/public/img/presenters/{{ presenter.image1 }}"></a>
+				</div>
+				<div class="modal fade" id="imageModal{{ forloop.index }}_1" tabindex="-1" role="dialog" aria-labelledby="imageModal{{ forloop.index }}_1_Label" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> 
+								<img src="/public/img/presenters/{{ presenter.image1 }}" alt="{{ presenter.name }}" class="img-responsive" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<h2>
+					{{ presenter.name }}
+					<a href="{{ presenter.linkurl }}" target="_blank">{{ presenter.linkname }}</a>
+				</h2>
+				<p>{{ presenter.title }}</p>
+				<p>
+				{{ presenter.bio }}
+				</p>
+
+				<h3>{{ presenter.class1title }}</h3>
+				<p>
+				{{ presenter.class1description }}
+				</p>
+				<h3>{{ presenter.class2title }}</h3>
+				<p>
+				{{ presenter.class2description }}
+				</p>
+			</div>
+			<div class="col-md-2 hidden-sm hidden-xs">
+				<div class="border">
+					<a href="#" data-toggle="modal" data-target="#imageModal{{ forloop.index }}_2"><img class="img-responsive img-thumbnail" alt="{{ presenter.name }}" src="/public/img/presenters/{{ presenter.image2 }}"></a>
+				</div>
+				<div class="modal fade" id="imageModal{{ forloop.index }}_2" tabindex="-1" role="dialog" aria-labelledby="imageModal{{ forloop.index }}_1_Label" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> 
+								<img src="/public/img/presenters/{{ presenter.image2 }}" alt="{{ presenter.name }}" class="img-responsive" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="featurette-divider hidden-md hidden-lg">
+	{% endfor %}
+		<div class="row">
+			<div class="col-md-offset-2 col-md-10">
+				<hr class="featurette-divider">
+			</div>
+		</div>
+	</div>
+</div>
+
+

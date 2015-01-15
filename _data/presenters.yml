@@ -1,0 +1,27 @@
+- name: Mark Frazier
+  title: Lifetime Achievement Award 2006
+  linkname: link to website
+  linkurl: http://www.dallasvoice.com/frazier-gets-award-for-lifetime-of-work-1020978.html
+  bio: Cool biography of presenter. Who they are and what they do.
+  image1: mark_1.jpg
+  image2: mark_2.jpg
+  class1title: Cool class 1
+  class1description: Description of really awesome class you won't want to miss.
+  class1datetime:
+  class2title: Cool class 2
+  class2description: Description of really awesome class you won't want to miss.
+  class2datetime:
+
+- name: John Pendal
+  title: International Mr Leather 2003
+  linkname: link to website
+  linkurl: http://www.meninrope.com/MiR/Articles/Entries/2009/6/12_Interview_by_John_Pendal_%28Mr_IML_2003%29.html
+  bio: Cool biography of presenter. Who they are and what they do.
+  image1: pendal_1.jpg
+  image2: pendal_2.jpg
+  class1title: Cool class 1
+  class1description: Description of really awesome class you won't want to miss.
+  class1datetime:
+  class2title: Cool class 2
+  class2description: Description of really awesome class you won't want to miss.
+  class2datetime:

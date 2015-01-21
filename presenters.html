@@ -34,6 +34,7 @@ title: Presenters
 	{% for presenter in site.data.presenters %}
 		<div class="row">
 			<div class="col-md-2">
+				{% if presenter.image1 %}
 				<div class="border">
 					<a href="#" data-toggle="modal" data-target="#imageModal{{ forloop.index }}_1"><img class="img-responsive img-thumbnail" alt="{{ presenter.name }}" src="/public/img/presenters/{{ presenter.image1 }}"></a>
 				</div>
@@ -47,6 +48,7 @@ title: Presenters
 						</div>
 					</div>
 				</div>
+				{% endif %}
 			</div>
 			<div class="col-md-8">
 				<h2>
@@ -58,6 +60,7 @@ title: Presenters
 				{{ presenter.bio }}
 				</p>
 
+				<hr/>
 				<h3>{{ presenter.class1title }}</h3>
 				<p>
 				{{ presenter.class1description }}
@@ -66,8 +69,10 @@ title: Presenters
 				<p>
 				{{ presenter.class2description }}
 				</p>
+
 			</div>
 			<div class="col-md-2 hidden-sm hidden-xs">
+				{% if presenter.image2 %}
 				<div class="border">
 					<a href="#" data-toggle="modal" data-target="#imageModal{{ forloop.index }}_2"><img class="img-responsive img-thumbnail" alt="{{ presenter.name }}" src="/public/img/presenters/{{ presenter.image2 }}"></a>
 				</div>
@@ -81,15 +86,11 @@ title: Presenters
 						</div>
 					</div>
 				</div>
+				{% endif %}
 			</div>
 		</div>
-		<hr class="featurette-divider hidden-md hidden-lg">
+		<hr/>
 	{% endfor %}
-		<div class="row">
-			<div class="col-md-offset-2 col-md-10">
-				<hr class="featurette-divider">
-			</div>
-		</div>
 	</div>
 </div>
 

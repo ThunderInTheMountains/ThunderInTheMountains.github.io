@@ -124,7 +124,7 @@
   class2description: 
   class2datetime:
   
-- name: Kalisti & Laminae
+- name: Kalisti
   title: 
   linkname: 
   linkurl: 
@@ -137,6 +137,20 @@
   class2title: 
   class2description: 
   class2datetime:
+  
+- name: Laminae
+  title: 
+  linkname: 
+  linkurl: 
+  bio: 
+  image1: ComingSoon.jpg
+  image2:
+  class1title: Classes Coming Soon
+  class1description: 
+  class1datetime:
+  class2title: 
+  class2description: 
+  class2datetime:  
   
 - name: Midori
   title: 

@@ -51,10 +51,11 @@ title: Presenters
 				{% endif %}
 			</div>
 			<div class="col-md-8">
-				<h2>
-					{{ presenter.name }}
-					<a href="{{ presenter.linkurl }}" target="_blank">{{ presenter.linkname }}</a>
-				</h2>
+				<h2>{{ presenter.name }}</h2>
+				{% if presenter.linkurl && presenter.linkname %}
+				<h3>Website: <a href="{{ presenter.linkurl }}" target="_blank">{{ presenter.linkname }}</a></h3>
+				{% endif %}
+
 				<p>{{ presenter.title }}</p>
 				<p>
 				{{ presenter.bio }}

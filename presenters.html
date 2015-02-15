@@ -32,6 +32,7 @@ title: Presenters
 			</div>
 		</div>
 	{% for presenter in site.data.presenters %}
+		<a name="{{ presenter.name | slugify }}" class="anchor"></a>
 		<div class="row">
 			<div class="col-md-2">
 				{% if presenter.image1 %}
@@ -60,17 +61,15 @@ title: Presenters
 				<p>
 				{{ presenter.bio }}
 				</p>
-
 				<hr/>
-				<h3>{{ presenter.class1title }}</h3>
-				<p>
-				{{ presenter.class1description }}
-				</p>
-				<h3>{{ presenter.class2title }}</h3>
-				<p>
-				{{ presenter.class2description }}
-				</p>
 
+				{% assign classes = site.data.schedule | where: "name", presenter.name %}
+				{% for class in classes %}
+					<h3>{{ class.title }}</h3>
+					<p>
+					{{ class.description }}
+					</p>
+				{% endfor %}
 			</div>
 			<div class="col-md-2 hidden-sm hidden-xs">
 				{% if presenter.image2 %}

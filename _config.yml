@@ -1,6 +1,7 @@
 name: Thunder in the Mountains
 markdown: redcarpet
 permalink: none
+timezone: America/Denver
 
 exclude:    ['*.less']
 baseurl:    /

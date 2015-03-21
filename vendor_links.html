@@ -2,22 +2,22 @@
 layout: info
 title: Vendor Links
 ---
-
 <div id="vendor_links">
 {% for vendor in site.data.vendors %}
 	<div class="vendor">
 	{% if vendor.link != null %}
 		<a href="{{ vendor.link }}" target="_blank">
 		{% if vendor.image != null %}
-				<img alt="{{ vendor.name }}" title="{{ vendor.name }}" src="/public/img/vendors/{{ vendor.image }}" /></a>
-       		{% else %}
-        		{{ vendor.name }}</a>
+			<img alt="{{ vendor.name }}" title="{{ vendor.name }}" src="/public/img/vendors/{{ vendor.image }}" />
+		{% else %}
+			<h3>{{ vendor.name }}</h3>
 		{% endif %}
+		</a>
 	{% else %}
 		{% if vendor.image != null %}
-				<img alt="{{ vendor.name }}" title="{{ vendor.name }}" src="/public/img/vendors/{{ vendor.image }}" />
-        	{% else %}
-       			{{ vendor.name }}
+			<img alt="{{ vendor.name }}" title="{{ vendor.name }}" src="/public/img/vendors/{{ vendor.image }}" />
+		{% else %}
+			<h3>{{ vendor.name }}</h3>
 		{% endif %}
 	{% endif %}
 	{% if vendor.description != null %}

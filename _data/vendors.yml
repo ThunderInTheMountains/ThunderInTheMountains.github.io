@@ -3,7 +3,7 @@
   image:
   
 - name: A Lotta Luck
-  link: http://www.alotluck.com
+  link: 
   image:
 
 - name: Arcane's Attic
@@ -52,11 +52,11 @@
 
 - name: Howling Moon Leather
   link: http://howlingmoonleather.com
-  image: 
+  image: howlingmoonleather.jpg
 
 - name: Industrial DisEase Toys
-  link: http://www.industrialdiseasetoys.com
-  image:
+  link: http://www.idetoys.com
+  image: idetoys.jpg
 
 - name: LeathrWorks
   link: http://www.leatherlee.com
@@ -72,7 +72,7 @@
 
 - name: PaddleDaddy
   link: http://www.paddledaddy.com
-  image: 
+  image: paddledaddy.jpg
   
 - name: Paddle Your Drawers
   link: http://www.paddleyourdrawers.com
@@ -84,7 +84,7 @@
 
 - name: Red Derriere Toy Company
   link: http://redderrieretoycompany.com
-  image: 
+  image: redderriere.jpg
 
 - name: Sensual Paddles
   link: http://sensualpaddles.weebly.com

@@ -10,17 +10,9 @@
   link: http://www.arcanesattic.com
   image: arcanesattic.png
 
-- name: B.A.R.E. Restraints Corp.
-  link: http://www.barerestraints.com
-  image: BareRestraints.jpg
-
 - name: Bear Things
   link: http://www.bear-things.com
   image: Bear_Things.gif
-
-- name: Black Sun Products
-  link: http://blacksunproducts.com
-  image:
 
 - name: Boss Bondage
   link: http://bossbondage.com
@@ -30,10 +22,6 @@
   link: http://candcleather.com
   image: candcleather.gif
 
-- name: CJ's Leather
-  link: http://www.cjsleather.com
-  image: CJ_Leather.jpg
-
 - name: Compassrose Creations
   link: http://compassrosecreations.com
   image: compassrosecreations.jpg
@@ -41,83 +29,62 @@
 - name: Corset.net
   link: http://corset.net
   image: Corsetnet.jpg
-
+  
+- name: deGiotto Rope
+  link: http://degiottorope.com
+  image: degiottorope.jpg  
 
 - name: Dirty Sheep
   link: http://dirty-sheep.com/
   image: DirtySheep.gif
 
+- name: Down Home Industries
+  link: http://downhomeindustries.com/
+  image: 
+
 - name: Dr. Clockwork's Home for Electrical and Medial Oddities
   link: http://www.drclockwork.com
   image: DrClockworks.jpg
 
-- name: Dungeon Bags by Damon Dark
+- name: Dungeon Bags by Damon Dark/Owhips
   link: http://www.dungeonbag.com
   image: DungeonBags.jpg
 
-- name: HammerFell Armoury
-  link: http://hammerfellarmoury.com
-  image: HammerfellArmoury.jpg
+- name: Howling Moon Leather
+  link: http://howlingmoonleather.com
+  image: 
 
 - name: Industrial DisEase Toys
   link: http://www.industrialdiseasetoys.com
   image:
 
-- name: The Kink Shop
-  link: http://www.thekinkshop.com
-  image: TKSLOGO.jpg
+- name: LeathrWorks
+  link: http://www.leatherlee.com
+  image: 
 
 - name: Latex Store
   link: http://www.thelatexstore.com
   image: latexstore.jpg
 
-- name: Leather by Danny
-  link: http://www.leatherbydanny.com
-  image: lbd-bnnr.gif
-
-- name: Leather Masters
-  link: http://www.leathermasters.com
-  image:
-
-- name: Marvelous Mayhem
-  link: http://www.marvelousmayhem.com
-  image:
-
-- name: Mistress Benay's BDSM Bed & Breakfast
-  link: http://mistressbenay.com
-  image:
-
 - name: Orchid and Serpent Stores
   link: http://www.orchidandserpentstores.com
   image: OrchidSerpent.gif
 
-- name: OWhips.com
-  link: http://www.owhips.com
-  image: owhipsbanner.jpg
-
+- name: PaddleDaddy
+  link: http://www.paddledaddy.com
+  image: 
+  
 - name: Paddle Your Drawers
   link: http://www.paddleyourdrawers.com
   image: PaddleYourDrawers.png
-
-- name: Painful Pleasure Toys
-  link: http://www.painfulpleasurestoys.com
-  image:
-
-- name: PD Kilts
-  link: http://pdkilts.com
-  image:
 
 - name: Poly's Pleasures
   link: http://www.polyspleasures.com
   image: polybanner.jpg
 
-- name: Rainbow Rope
-  link: http://rainbowrope.com
-  image: RainbowRope2.jpg
-
-- name: Kinky Medical
-  link: http://kinkymedical.com
-  image: kmbanner.jpg
+- name: Red Derriere Toy Company
+  link: http://redderrieretoycompany.com
+  image: 
 
 - name: Sensual Paddles
   link: http://sensualpaddles.weebly.com
@@ -127,10 +94,3 @@
   link: http://www.steelbones.com
   image: SteelBonesLogo.png
 
-- name: Wicked Angil
-  link: https://www.facebook.com/wickedangil
-  image: WickedAngil.jpg
-
-- name: Wyvern Wood and Leather
-  link: https://flatwacker.com
-  image:

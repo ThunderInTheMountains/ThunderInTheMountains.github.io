@@ -6,17 +6,25 @@ title: Vendor Links
 <div id="vendor_links">
 {% for vendor in site.data.vendors %}
 	<div class="vendor">
-    {% if vendor.link != null %}
+	{% if vendor.link != null %}
 		<a href="{{ vendor.link }}" target="_blank">
 		{% if vendor.image != null %}
 			<img alt="{{ vendor.name }}" title="{{ vendor.name }}" src="/public/img/vendors/{{ vendor.image }}" />
 		{% endif %}
 		{{ vendor.name }}
 		</a>
-       {% else %}
-        {{ vendor.name }}
-    {% endif %}
-    <hr>
+	{% else %}
+		{% if vendor.image != null %}
+			<img alt="{{ vendor.name }}" title="{{ vendor.name }}" src="/public/img/vendors/{{ vendor.image }}" />
+		{% endif %}
+		{{ vendor.name }}
+	{% endif %}
+	{% if vendor.description != null %}
+		<p>
+		{{ vendor.description }}
+		</p>
+	{% endif %}
+	<hr>
 	</div>
 {% endfor %}
 </div>

@@ -1,96 +1,120 @@
 - name: 100 Monkeys
   link: 
   image:
-  
+  description:
+
 - name: A Lotta Luck
   link: 
   image:
+  description:
 
 - name: Arcane's Attic
   link: http://www.arcanesattic.com
   image: arcanesattic.png
+  description:
 
 - name: Bear Things
   link: http://www.bear-things.com
   image: Bear_Things.gif
+  description:
 
 - name: Boss Bondage
   link: http://bossbondage.com
   image: BossBondage2013.jpg
+  description: Rope and stuff
 
 - name: C and c Leather
   link: http://candcleather.com
   image: candcleather.gif
+  description:
 
 - name: Compassrose Creations
   link: http://compassrosecreations.com
   image: compassrosecreations.jpg
+  description:
 
 - name: Corset.net
   link: http://corset.net
   image: Corsetnet.jpg
-  
+  description:
+
 - name: deGiotto Rope
   link: http://degiottorope.com
   image: degiottorope.jpg  
+  description:
 
 - name: Dirty Sheep
   link: http://dirty-sheep.com/
   image: DirtySheep.gif
+  description:
 
 - name: Down Home Industries
   link: http://downhomeindustries.com/
   image: 
+  description:
 
 - name: Dr. Clockwork's Home for Electrical and Medial Oddities
   link: http://www.drclockwork.com
   image: DrClockworks.jpg
+  description:
 
 - name: Dungeon Bags by Damon Dark/Owhips
   link: http://www.dungeonbag.com
   image: DungeonBags.jpg
+  description:
 
 - name: Howling Moon Leather
   link: http://howlingmoonleather.com
   image: howlingmoonleather.jpg
+  description:
 
 - name: Industrial DisEase Toys
   link: http://www.idetoys.com
   image: idetoys.jpg
+  description:
 
 - name: LeathrWorks
   link: http://www.leatherlee.com
   image: 
+  description:
 
 - name: Latex Store
   link: http://www.thelatexstore.com
   image: latexstore.jpg
+  description:
 
 - name: Orchid and Serpent Stores
   link: http://www.orchidandserpentstores.com
   image: OrchidSerpent.gif
+  description:
 
 - name: PaddleDaddy
   link: http://www.paddledaddy.com
   image: paddledaddy.jpg
+  description:
   
 - name: Paddle Your Drawers
   link: http://www.paddleyourdrawers.com
   image: PaddleYourDrawers.png
+  description:
 
 - name: Poly's Pleasures
   link: http://www.polyspleasures.com
   image: polybanner.jpg
+  description:
 
 - name: Red Derriere Toy Company
   link: http://redderrieretoycompany.com
   image: redderriere.jpg
+  description:
 
 - name: Sensual Paddles
   link: http://sensualpaddles.weebly.com
   image: SensualPaddles.jpg
+  description:
 
 - name: Steel Bones
   link: http://www.steelbones.com
   image: SteelBonesLogo.png
+  description:
 

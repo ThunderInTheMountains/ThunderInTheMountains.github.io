@@ -9,15 +9,15 @@ title: Vendor Links
 	{% if vendor.link != null %}
 		<a href="{{ vendor.link }}" target="_blank">
 		{% if vendor.image != null %}
-			<img alt="{{ vendor.name }}" title="{{ vendor.name }}" src="/public/img/vendors/{{ vendor.image }}" /></a>
-        {% else %}
-        	{{ vendor.name }}</a>
+				<img alt="{{ vendor.name }}" title="{{ vendor.name }}" src="/public/img/vendors/{{ vendor.image }}" /></a>
+       		{% else %}
+        		{{ vendor.name }}</a>
 		{% endif %}
 	{% else %}
 		{% if vendor.image != null %}
-			<img alt="{{ vendor.name }}" title="{{ vendor.name }}" src="/public/img/vendors/{{ vendor.image }}" />
-        {% else %}
-       		{{ vendor.name }}
+				<img alt="{{ vendor.name }}" title="{{ vendor.name }}" src="/public/img/vendors/{{ vendor.image }}" />
+        	{% else %}
+       			{{ vendor.name }}
 		{% endif %}
 	{% endif %}
 	{% if vendor.description != null %}

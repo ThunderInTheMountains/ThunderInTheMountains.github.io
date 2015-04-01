@@ -1,8 +1,3 @@
-- name: 100 Monkeys
-  link: 
-  image:
-  description: Adult Coloring Books
-
 - name: A Lotta Luck
   link: 
   image:
@@ -117,6 +112,11 @@
   link: http://sensualpaddles.weebly.com
   image: SensualPaddles.jpg
   description: Sensual padles that don't normally leave bruises, oil soaked canes
+
+- name: Splash Coloring
+  link: 
+  image:
+  description: Adult Coloring Books 
 
 - name: Steel Bones
   link: http://www.steelbones.com

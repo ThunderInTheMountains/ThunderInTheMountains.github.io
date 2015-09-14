@@ -17,17 +17,43 @@
 <div class="container information">
 	<div class="row">
 		<div class="col-sm-10 col-sm-offset-2">
-			<h1>{{ page.title }}</h1>
+			<h1>
+			{{ page.title }}
+			{{ page.year }}
+			<br />
+			{% if site.data.gallery.first.year > page.year %}
+			<a class="small" href="photos{{ page.year | plus: 1 }}.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>{{ page.year | plus: 1 }}</a>
+			{% endif %}
+			{% if site.data.gallery.last.year < page.year %}
+			<a class="small" href="photos{{ page.year | minus: 1 }}.html">{{ page.year | minus: 1 }}<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+			{% endif %}
+			</h1>
 		</div>
 	</div>
 
 	{{ content }}
 
+	<div id="gallery" class="row">
+	{% for gallery in site.data.gallery %}
+	{% if gallery.year == page.year %}
+		{% for col in gallery.cols %}
+		<div class="col-sm-2">
+		{% for file in col.files %}
+		<div class="border">
+		<img src="/public/img/gallery/{{ gallery.year }}/{{ col.col }}/{{ file.name }}" alt="" class="img-responsive img-thumbnail" />
+		</div>
+		{% endfor %}
+		</div>
+		{% endfor %}
+	{% endif %}
+	{% endfor %}
+	</div>
+
 	<div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<div class="modal-body">
-					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> 
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 					<img src="" alt="" class="img-responsive" />
 				</div>
 			</div>

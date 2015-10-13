@@ -21,9 +21,6 @@
     - name: 16.jpg
     - name: 17.jpg
     - name: 18.jpg
-    - name: 19.jpg
-    - name: 20.jpg
-    - name: 21.jpg
     - name: 22.jpg
     - name: 23.jpg
     - name: 24.jpg
@@ -39,7 +36,6 @@
   - col: 2
     files:
     - name: 33.jpg
-    - name: 34.jpg
     - name: 35.jpg
     - name: 36.jpg
     - name: 37.jpg
@@ -87,14 +83,10 @@
     - name: 76.jpg
     - name: 77.jpg
     - name: 78.jpg
-    - name: 79.jpg
-    - name: 80.jpg
     - name: 81.jpg
     - name: 82.jpg
     - name: 83.jpg
     - name: 84.jpg
-    - name: 85.jpg
-    - name: 86.jpg
     - name: 87.jpg
     - name: 88.jpg
     - name: 89.jpg
@@ -223,7 +215,6 @@
     - name: 1.jpg
     - name: 2.jpg
     - name: 3.jpg
-    - name: 4.jpg
     - name: 5.jpg
     - name: 6.jpg
     - name: 7.jpg
@@ -266,7 +257,6 @@
     - name: 46.jpg
     - name: 47.jpg
     - name: 48.jpg
-    - name: 49.jpg
     - name: 50.jpg
     - name: 51.jpg
     - name: 52.jpg

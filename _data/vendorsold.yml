@@ -12,6 +12,11 @@
   link: http://www.arcanesattic.com
   image: arcanesattic.png
   description: Floggers, including the Lunatus (double headed flogger) other impact toys such as paddles, canes etc. 
+  
+- name: Bastard Ropes
+  link: http://www.bastardropes.com
+  image: 
+  description: Rope - Hemp, Jute, Cotton, Bamboo Silk, Nylon, Electro Conductive in varied materials Suspension Rings, Marlin Spikes, Safety Scissors
 
 - name: Bear Things
   link: http://www.bear-things.com
@@ -23,11 +28,11 @@
   image: BossBondage2013.jpg
   description: 
 
-- name: C and c Leather
-  link: http://candcleather.com
-  image: candcleather.gif
-  description: Leather Restraints, Collars, Handmade soaps & lotions
-
+- name: Cable Locked Designs
+  link: http://www.cablelocked.com
+  image: 
+  description: Custom made collars of cable, lugs and o-rings for boys, subs, slaves or any submissive.
+  
 - name: Compassrose Creations
   link: http://compassrosecreations.com
   image: compassrosecreations.jpg
@@ -37,11 +42,6 @@
   link: http://www.highlanderwhips.com
   image: 
   description: Highlander's Non-nylon whips, Thuddy Buddy massage implements, and Wicked Hit kinetic canes.  
-
-- name: Corset.net
-  link: http://corset.net
-  image: Corsetnet.jpg
-  description: Corsets, corseted fashions for men and women, original designs in original fabrics, hand made quality work
 
 - name: deGiotto Rope
   link: http://degiottorope.com
@@ -63,15 +63,15 @@
   image: DrClockworks.jpg
   description: Violet wands and medical toys
 
+- name: Dryad Tea
+  link: http://www.dryadtea.com
+  image: 
+  description: Loose leaf teas, hand thrown pottery and tea accessories. We are kink and lifestyle friendly. Everything is 100% made by hand, and our teas are amazing for serving at events etc. All teas are sold loose leaf and dry, no liquid sampling is offered (most hotels ask about this).
+
 - name: Dungeon Bags by Damon Dark/Owhips
   link: http://www.dungeonbag.com
   image: DungeonBags.jpg
   description: Custom made Dungeon Bags, High end flogger line, High end restrain line, Misc BDSM gear, Quality Kangaroo Single tail whips and accessories
-
-- name: Fire and Ice Jewelry
-  link: http://fireandicejewelry.com
-  image: 
-  description: Chain Maille BDSM toys, jewelry- chain maille & fashion, Corsets and kinky clothes
 
 - name: Howling Moon Leather
   link: http://howlingmoonleather.com
@@ -83,20 +83,35 @@
   image: idetoys.jpg
   description: Sensation/electrical/impact toys; the triple play modular heads are made from; chain, ball-chain, manila rope, wire-rope, cable tie, electrical rope and window spline; our handles are wrapped with rubber or leather. We also make chain and ball-chain mini floggers, cbt/nipple weights; as well as steampunk clothing, walkingsticks/canes and parasols.  leather harnesses, sap gloves, SP light sabers and leather tool rolls. 
 
-- name: LeathrWorks
-  link: http://www.leatherlee.com
+- name: Justin Sayne Leather
+  link: http://justinsayneleather.com
   image: 
-  description: Unique Spinning Swivel Floggers, with interchangeable Handles & Tails, ( Stinging Blacklight Re-active Flogger Tails, Leather, Assorted Chords, Dragon Tails, etc.) Helps to 0vercome Carpul tunnel in the wrists! Flogging Gloves & Finger Flippers with Swivels. 0ther assorted Leather Slappers & accessories. Specialty Blades for Rope Cutting, Safety Blades, etc. (I don't have to bring Blades if they conflict with another Vendor who only sells Knives.)
+  description: Exotic leather
+
+- name: KJ Canes
+  link: http://www.kjcanes.com
+  image: 
+  description: BDSM Canes of a variety of materials including some that light up & glow in the dark, Paddles, Floggers & other hitty things, Low-Temp Candles, Fetish Jewelry, etc.
 
 - name: Latex Store
   link: http://www.thelatexstore.com
   image: latexstore.jpg
   description: Latex clothing for men and women, and assorted latex toys.
 
+- name: Le Chateau Exotique
+  link: http://www.fetishwear.com
+  image: 
+  description: Leather clothing for men and women, corsets.
+
 - name: Leather Masters
-  link: http://leathermasters.com
-  image: LM_Banner.gif
-  description: Leather Clothing for men and women.
+  link: http://www.leathermasters.com
+  image: 
+  description: Leather Clothing, Accessories and Toys 
+  
+- name: LeathrWorks
+  link: http://www.leatherlee.com
+  image: 
+  description: Unique Spinning Swivel Floggers, with interchangeable Handles & Tails, ( Stinging Blacklight Re-active Flogger Tails, Leather, Assorted Chords, Dragon Tails, etc.) Helps to 0vercome Carpul tunnel in the wrists! Flogging Gloves & Finger Flippers with Swivels. 0ther assorted Leather Slappers & accessories. Specialty Blades for Rope Cutting, Safety Blades, etc. (I don't have to bring Blades if they conflict with another Vendor who only sells Knives.)
   
 - name: Orchid and Serpent Stores
   link: http://www.orchidandserpentstores.com
@@ -107,21 +122,26 @@
   link: http://www.paddledaddy.com
   image: paddledaddy.jpg
   description: Wooden, leather, lexan, and aluminum paddles, leather and rubber straps, ball presses, e-stim ball presses, detachable enema hoses and nozzles, slings, portable sling stand, fuck bench and rim seats
-  
-- name: Poly's Pleasures
-  link: http://www.polyspleasures.com
-  image: polybanner.jpg
+
+- name: PD Kilts
+  link: http://www.pdkilts.com
+  image: 
+  description: Men and Women modern kilts
+    
+- name: Pendragon Chainmail
+  link: http://www.etsy.com/shop/PendragonChainmail
+  image: 
   description: Handmade chainmail jewelry, clothing, and accessories.
 
 - name: Sensual Paddles
+  link: http://www.pewtermaster.com
+  image: 
+  description: Pewter pins, pendants, earrings crystals, chains
+
+- name: Southworth Enterprises
   link: http://sensualpaddles.weebly.com
   image: SensualPaddles.jpg
-  description: Sensual padles that don't normally leave bruises, oil soaked canes
-
-- name: Splash Coloring
-  link: 
-  image:
-  description: Adult Coloring Books 
+  description: Sensual padles that don't normally leave bruises, oil soaked canes  
 
 - name: Steel Bones
   link: http://www.steelbones.com
@@ -132,8 +152,3 @@
   link: https://www.facebook.com/pages/Uber-Butch-Barber/1640186742881179?fref=ts
   image: uberbutchbarber.jpg
   description: Barber and onsite.
-
-- name: Obscure Belts
-  link: http://www.obscurebelts.com
-  image: obscurebelts.jpg
-  description: Unique Belts

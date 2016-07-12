@@ -13,11 +13,6 @@
   image: arcanesattic.png
   description: Floggers, including the Lunatus (double headed flogger) other impact toys such as paddles, canes etc. 
   
-- name: Bastard Ropes
-  link: http://www.bastardropes.com
-  image: 
-  description: Rope - Hemp, Jute, Cotton, Bamboo Silk, Nylon, Electro Conductive in varied materials Suspension Rings, Marlin Spikes, Safety Scissors
-
 - name: Bear Things
   link: http://www.bear-things.com
   image: Bear_Things.gif
@@ -137,6 +132,11 @@
   link: http://www.etsy.com/shop/PendragonChainmail
   image: 
   description: Handmade chainmail jewelry, clothing, and accessories.
+  
+- name: Poly's Pleasures
+  link: http://www.polyspleasures.com
+  image: polybanner.jpg
+  description: Handmade chainmail jewelry, clothing, and accessories. 
 
 - name: Sensual Paddles
   link: http://sensualpaddles.weebly.com

@@ -1,0 +1,89 @@
+---
+layout: default
+title: Schedule
+---
+
+<!-- 
+<div id="schedule">
+	<div class="container information">
+		<div class="row">
+			<div class="col-sm-offset-2 col-sm-10">
+				<h1>{{ page.title }}</h1>
+				<p>
+				Coming soon!
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+<div id="schedule">
+	<div class="container information">
+		<div class="row">
+			<div class="col-sm-offset-2 col-sm-10">
+				<h1>{{ page.title }}</h1>
+				<p>
+				You can now download the schedule via a mobile app. Browse to the website on your mobile device and then click the link below, or download the Yapp app from the your devices App Store and search for the app on Yapp called THUNDER. Click here: <a href="http://my.yapp.us/THUNDER">http://my.yapp.us/THUNDER</a> This has schedule, full class descriptions, presenter bios, vendors, staff and chat features for general chat about Thunder and separate sections to get some play dates lined up.
+				</p>
+			</div>
+		</div>
+
+{% assign schedule = (site.data.schedule | sort: "datetime") %}
+{% assign schedule = (schedule | group_by: "datetime") %}
+{% assign old_day = "" %}
+
+{% for bracket in schedule %}
+	{% if bracket["name"] != "" %}
+		{% capture day %}{{ bracket["name"] | date: "%A" }}{% endcapture %}
+		{% capture date %}{{ bracket["name"] | date: "%x" }}{% endcapture %}
+		{% capture time %}{{ bracket["name"] | date: "%I:%M %p" }}{% endcapture %}
+		{% capture end %}{{ bracket["items"].first.endtime | date: "%I:%M %p" }}{% endcapture %}
+		
+		{% if day != old_day %}
+			{% assign old_day = day %}
+			<hr class="white"/>
+			<div class="row">
+				<div class="col-sm-10">
+				<h2>{{ day }}</h2>
+				</div>
+				<div class="col-sm-2">
+				<h2 class="text-right"><span>{{ date }}</span></h2>
+				</div>
+			</div>
+		{% endif %}
+
+		<hr/>
+		<div class="row">
+			<div class="col-sm-3">
+<!-- 			{{ bracket["name"] }} -->
+				<h4>{{ day }}</h4>
+				<h4>{{ time }} - {{ end }}</h4>
+			</div>
+			<div class="col-sm-9">
+<!-- 			{{ bracket["items"] }} -->
+			{% for class in bracket["items"] %}
+				<div class="row">
+					<div class="col-sm-8">
+						<h3><a href="/presenters.html#{{ class.name | slugify }}">{{ class.name }}</a></h3>
+						<p>
+						{{ class.title }}
+						</p>
+						<p>
+						{{ class.info }}
+						</p>
+					</div>
+					<div class="col-sm-4">
+					<h4>{{ class.location }}</h4>
+					</div>
+				</div>
+			{% endfor %}
+			</div>
+		</div>
+	{% endif %}
+
+{% endfor %}
+
+	</div>
+</div>
+

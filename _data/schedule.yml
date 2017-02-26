@@ -150,7 +150,21 @@
   datetime: 
   endtime: 
   location: 
-  name: Danarama           
+  name: Danarama     
+  
+- title: Suspension From On High
+  description:  <p>When the sky is the limit and the difference between happy and splat is knowledge and planning.</p>
+  datetime: 
+  endtime: 
+  location: 
+  name: Scott Smith      
+
+- title: Negotiations
+  description:  <p>Getting what you really want through good communication.</p>
+  datetime: 
+  endtime: 
+  location: 
+  name: Scott Smith       
 
 - title: Membership Registration
   info: T-shirts, tank tops, long sleeved shirts, and pins all for sale during registration hours.  Get ‘em while they last!

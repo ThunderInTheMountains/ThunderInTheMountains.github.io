@@ -17,6 +17,7 @@
 						<li class="dropdown{% if page.title == 'Registration' or page.title == 'Additional Order' or page.title == 'Vendor Registration' or page.title == 'Volunteer Registration' %} active{% endif %}"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registration <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="https://www.regonline.com/thunderinthemountains2017" target="_blank">Register</a></li>
+                            <li><a href="/schedule.html">Schedule</a></li>
 							<li class="divider"></li>
 							<li><a href="https://www.regonline.com/vendorapplication2017" target="_blank">Vendor Registration</a></li>
 							<li><a href="https://www.regonline.com/volunteerapplication2017" target="_blank">Volunteer Registration</a></li>
@@ -31,8 +32,11 @@
 							<li><a href="dungeonrules.html" >Dungeon Rules</a></li>
 						</ul>
 						</li>
-						<li class="{% if page.title == 'Presenters' %}active{% endif %}"><a href="/presenters.html">Presenters</a></li>
-						<li class="{% if page.title == 'Schedule' %}active{% endif %}"><a href="/schedule.html">Schedule</a></li>
+                        <li class="dropdown{% if page.title == 'Registration' or page.title == 'Additional Order' or page.title == 'Vendor Registration' or page.title == 'Volunteer Registration' %} active{% endif %}"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Presenters <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+							<li><a href="/presenters.html">Presenters</a></li>
+							<li><a href="/schedule.html">Schedule</a></li>
+                        </ul>
 						<li class="{% if page.title == 'Hotel Information' %}active{% endif %}"><a href="/hotel.html">Hotel</a></li>
 						<li class="dropdown{% if page.title == 'Hotel Vendor Forms' or page.title == 'Vendor Links' %} active{% endif %}"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vendors <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
@@ -46,7 +50,8 @@
 							<li><a href="hotel_forms.html">Hotel Forms</a></li>
 						</ul>
 						</li>
-						<li class="{% if page.title == 'Photo Gallery' %}active{% endif %}"><a href="photos2015.html">Photo Gallery</a></li>
+						<li class="{% if page.title == 'Sponsors' %}active{% endif %}"><a href="sponsors.html">Sponsors</a></li>                        
+                        <li class="{% if page.title == 'Photo Gallery' %}active{% endif %}"><a href="photos2015.html">Photo Gallery</a></li>
 						<li class="{% if page.title == 'Dungeon' %}active{% endif %}"><a href="dungeon.html">Dungeon</a></li>
 					</ul>
 <!--

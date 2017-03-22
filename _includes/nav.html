@@ -38,7 +38,7 @@
 							<li><a href="/schedule.html">Schedule</a></li>
                         </ul>
 						<li class="{% if page.title == 'Hotel Information' %}active{% endif %}"><a href="/hotel.html">Hotel</a></li>
-						<li class="dropdown{% if page.title == 'Hotel Vendor Forms' or page.title == 'Vendor Links' %} active{% endif %}"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vendors <span class="caret"></span></a>
+						<li class="dropdown{% if page.title == 'Hotel Vendor Forms' or page.title == 'Vendor Links' %} active{% endif %}"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vendors<span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="vendor_links.html">Vendor Links</a></li>
 							<li class="divider"></li>
@@ -50,7 +50,12 @@
 							<li><a href="hotel_forms.html">Hotel Forms</a></li>
 						</ul>
 						</li>
-						<li class="{% if page.title == 'Sponsors' %}active{% endif %}"><a href="sponsors.html">Sponsors</a></li>                        
+						<li class="dropdown{% if page.title == 'Sponsor Links' %} active{% endif %}"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sponsors<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+					<ul class="dropdown-menu" role="menu">
+							<li><a href="sponsors.html">Sponsor Links</a></li>
+							<li><a href="https://www.regonline.com/thundersponsor2017" target="_blank">Sponsor Registration</a></li>
+						</ul>                                                                  
                         <li class="{% if page.title == 'Photo Gallery' %}active{% endif %}"><a href="photos2015.html">Photo Gallery</a></li>
 						<li class="{% if page.title == 'Dungeon' %}active{% endif %}"><a href="dungeon.html">Dungeon</a></li>
 					</ul>

@@ -1,3 +1,8 @@
+- name: A Lotta Luck
+  link: 
+  image:
+  description: Sexy sensual clothing and bling boots
+  
 - name: Amici Designs
   link: http://amicicustomleather.com
   image: Amici.jpg
@@ -63,10 +68,10 @@
   image: idetoys.jpg
   description: Sensation/electrical/impact toys; the triple play modular heads are made from; chain, ball-chain, manila rope, wire-rope, cable tie, electrical rope and window spline; our handles are wrapped with rubber or leather. We also make chain and ball-chain mini floggers, cbt/nipple weights; as well as steampunk clothing, walkingsticks/canes and parasols.  leather harnesses, sap gloves, SP light sabers and leather tool rolls. 
 
-- name: Kinkz
-  link: http://www.kinkz.net
-  image: kinkz.png
-  description: Floggers, Collars, Cuffs, Harnesses and Whips.
+- name: Justin Sayne Leather
+  link: http://justinsayneleather.com
+  image: JustinSayneLeathers.gif
+  description: Exotic leather
 
 - name: KJ Canes
   link: http://www.kjcanes.com
@@ -92,11 +97,6 @@
   link: http://www.leatherlee.com
   image: 
   description: Unique Spinning Swivel Floggers, with interchangeable Handles & Tails, ( Stinging Blacklight Re-active Flogger Tails, Leather, Assorted Chords, Dragon Tails, etc.) Helps to 0vercome Carpul tunnel in the wrists! Flogging Gloves & Finger Flippers with Swivels. 0ther assorted Leather Slappers & accessories. Specialty Blades for Rope Cutting, Safety Blades, etc. (I don't have to bring Blades if they conflict with another Vendor who only sells Knives.)
-
-- name: Marrus Art
-  link: http://www.marrusart.com
-  image: marrusart.jpg
-  description: Fine Art
   
 - name: Orchid and Serpent Stores
   link: http://www.orchidandserpentstores.com
@@ -110,7 +110,7 @@
 
 - name: PD Kilts
   link: http://www.pdkilts.com
-  image: pdkilts.png
+  image: 
   description: Men and Women modern kilts
     
 - name: Poly's Pleasures
@@ -127,8 +127,3 @@
   link: http://www.steelbones.com
   image: SteelBonesLogo.png
   description: Lots and Lots of corsets. So many corsets.
-
-- name: Tantus
-  link: https://www.tantusinc.com
-  image: tantus.jpg
-  description: Tantus, Inc manufactures eco-friendly, hypoallergenic, healthy for the body sexual wellness products made from their own unique formula of 100% Ultra-Premium Silicone 

@@ -29,7 +29,7 @@ title: Schedule
 			</div>
 		</div>
 
-{% assign schedule = (site.data.schedule | sort: "datetime") %}
+{% assign schedule = (site.data.schedule .. sort: "datetime") %}
 {% assign schedule = (schedule | group_by: "datetime") %}
 {% assign old_day = "" %}
 

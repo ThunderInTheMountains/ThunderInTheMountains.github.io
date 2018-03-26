@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+.egerton{
+    margin: auto;
+    display: block;
+}
+p{
+    color:black;
+    position: absolute;
+    bottom: 10px;
+    font-size: 30px;
+}

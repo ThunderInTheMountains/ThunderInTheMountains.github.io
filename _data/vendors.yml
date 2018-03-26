@@ -20,7 +20,7 @@
   
 - name: Chain Male
   link: http://Chain-Male.com/
-  image: ChainMale.jpg
+  image: ChainMale.png
   description: wide range of medical supplies   
 
 - name: Compassrose Creations
@@ -43,15 +43,15 @@
   image: DrvonHertz.jpg
   description: Dr. vonHertz makes unique handcrafted Violet Wand electrodes here in Denver, Colorado. Art electrodes in whimsical shapes. Linear electrodes with infills of genuine Swarovski® crystal, barbed wire and balls of steel and more. Crackle electrodes with the look of lightning in a bottle.  Charm system™ electrodes with metal Charms and tassels which add intensity and a yummy stingly sensation.  We will also be offering testing of spark gapped electrodes as well as some useful violet wand products that you won't find anywhere else. When you stop by, be sure and ask for a free Edge Play symbol.
 
+- name: Firebird Leather
+  link: http://firebirdleather.com
+  image: FirebirdLeather.jpg
+  description: Handmade Leather BDSM toys, leather harnesses, restraints, pony play gear, headdresses, custom items    
+
 - name: Howling Moon Leather
   link: http://howlingmoonleather.com
   image: howlingmoonleather.jpg
   description: Custom made floggers, dragontails, cuffs, collars, paddles, & tawses.  Also will be selling violet wands & accessories
-
-- name: Firebird Leather
-  link: http://firebirdleather.com
-  image: FirebirdLeather.jpg
-  description: Handmade Leather BDSM toys, leather harnesses, restraints, pony play gear, headdresses, custom items  
 
 - name: Industrial DisEase Toys
   link: http://www.idetoys.com
@@ -105,7 +105,7 @@
 
 - name: Renaissance Rope
   link: http://www.RenaissanceRope.com
-  image: RenaissanceRope.png
+  image: 
   description: Hand-crafting premium 4-strand ropes from high quality Hemp, Jute, and Bamboo yarns.  We hand-dye our yarns prior to twisting them into ropes to ensure the best possible color consistency.  Multiple-color ropes are available by special order.  Please check our website for photos and more information.     
 
 - name: Sensual Paddles

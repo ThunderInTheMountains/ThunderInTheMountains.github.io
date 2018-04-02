@@ -7,8 +7,16 @@ body {
     display: block;
 }
 p{
+    display:block;
+    text-align: center;
+    margin: auto;
     color:black;
-    position: absolute;
     bottom: 10px;
     font-size: 30px;
+}
+ul {
+    color:#111111;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
 }

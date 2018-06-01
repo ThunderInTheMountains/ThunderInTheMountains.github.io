@@ -10,7 +10,14 @@
   description: 
   datetime: 2018-07-19 21:00:00 -6:00
   endtime: 2018-07-20 02:00:00 -6:00
-  location: Convention Room A, B, C, D and E<br/><br/>(****There will be distinct areas for men only, women only, and pansexual)    
+  location: Convention Room A, B, C, D and E<br/><br/>(****There will be distinct areas for women only and pansexual)    
+
+- title: Membership Only Play Party - Men's Only Space
+  info: (**NO CELL PHONES OR CAMERAS ALLOWED. THEY WILL BE PERMANENTLY CONFISCATED**)
+  description: 
+  datetime: 2018-07-19 21:00:00 -6:00
+  endtime: 2018-07-20 02:00:00 -6:00
+  location: Breckenridge  
 
 - title: Membership Registration
   info: T-shirts, tank tops, long sleeved shirts, and pins all for sale during registration hours.  Get ‘em while they last!
@@ -32,13 +39,41 @@
   datetime: 2018-07-20 12:00:00 -6:00
   endtime: 2018-07-20 22:00:00 -6:00
   location: Copper Mountain  
+  
+- title: First Impressions
+  description: <p>Pick-up play and dungeon etiquette class</p>
+  datetime: 2018-07-20 12:00:00 -6:00
+  endtime: 2018-07-20 13:30:00 -6:00
+  location: Convention Bay E
+  name: Stefanos & Shay   
+  
+- title: How to Become a Dungeon Monitor
+  description: <p>This class will be centered around how to become a Dungeon Monitor.  This is a great class on the basics around becoming a DM for your local groups, events and clubs.</p>
+  datetime: 2018-07-20 12:00:00 -6:00
+  endtime: 2018-07-20 13:30:00 -6:00
+  location: Telluride
+  name: Markette  
+
+- title: Kink and the Law
+  description: <p>You have planned your play to perfection. The boundaries have been negotiated, the tools (toys) have been arranged, the venue has been prepared, and the players are in the throes of pleasure.</p><p>And then the unthinkable happens - contact with law enforcement.</p><p>What should you do? What should you not do? What are your “rights.” What is your best course of action?</p>
+  datetime: 2018-07-20 14:00:00 -6:00
+  endtime: 2018-07-20 15:30:00 -6:00
+  location: Telluride
+  name: Bob
+
+- title: Midori’s Tips on How to Get the Most out of Thunder
+  description: <p>Get up close and personal and talk with Midori, ask questions and learn how to make the most out of Thunder.</p>
+  datetime: 2018-07-20 14:00:00 -6:00
+  endtime: 2018-07-20 15:30:00 -6:00
+  location: Convention Bay E
+  name: Midori      
 
 - title: Colorado TNG Meet and Mix
   info: Come and meet your fellow TNG'ers and make some new friends.  Everyone aged 18-35 welcome.
   description: 
   datetime: 2018-07-20 18:00:00 -6:00
   endtime: 2018-07-20 19:00:00 -6:00
-  location: Breckenridge    
+  location: Telluride    
 
 - title: Meet & Greet Party
   info: <p>Meet all the Thunder presenters and staff---and for the first time at Thunder. Schmooze with old friends. Meet new ones! It is important for all new members to attend this event. Doors open at 6:15pm, it will begin promptly at 7pm. So don’t be late! </p><p>Cash bar will be available</p>
@@ -54,6 +89,13 @@
   endtime: 2018-07-21 02:00:00 -6:00
   location: Convention Room A, B, C, D and E<br/><br/>(****There will be distinct areas for men only, women only, and pansexual)   
 
+- title: Membership Only Play Party - Men's Only Space
+  info: (**NO CELL PHONES OR CAMERAS ALLOWED. THEY WILL BE PERMANENTLY CONFISCATED**)
+  description: 
+  datetime: 2018-07-20 21:00:00 -6:00
+  endtime: 2018-07-21 02:00:00 -6:00
+  location: Breckenridge   
+
 - title: Howl at the Moon - Calling all pups!
   info: Puppies in the Mountains teams up with Thunder in the Mountains to host a puppy mosh pit on Friday night at from 10pm to Midnight!  Come howl with us!  We will have toys, volunteer handlers, and fruit snacks to share.  Bring a list of your known allergies so we can be safe, gear up and pup out until midnight.  Everyone is welcome to participate or watch
   description: 
@@ -66,7 +108,7 @@
   description: 
   datetime: 2018-07-21 08:00:00 -6:00
   endtime: 2018-07-21 09:00:00 -6:00
-  location: Breckenridge     
+  location: Telluride     
 
 - title: Membership Registration
   info: T-shirts, tank tops, long sleeved shirts, and pins all for sale during registration hours.  Get ‘em while they last!
@@ -100,7 +142,7 @@
   description: <p>Do you want to hurt your bottom with rope, contort the body, torture little-known places, and hear lovely squeals of pain (and pleasure)? All you need to know for this class is a single-column tie, and you can create beautiful (and painful) bondage and predicaments on the ground. No fancy knots or harnesses needed! Bring your enthusiasm and your creativity, and we will explore a number of different tricks and techniques to create an incredible rope experience for both top and bottom!</p>
   datetime: 2018-07-21 09:30:00 -6:00
   endtime: 2018-07-21 11:00:00 -6:00
-  location: Breckenridge 
+  location: Convention Bay C 
   name: honey_bare   
 
 - title: Strong Slaves, Bodacious Bottoms & Ass-Kicking Submissives - Embracing Dichotomy
@@ -128,7 +170,7 @@
   description: <p>Tank, healer, rogue, mage - they're not simply jobs, they're roles. When a party is missing a key element, a weakness develops and villainy finds a way in. But unless your poly family actually has at least five different specialists, you should identify which areas of expertise you can claim, and know how to call upon them in times of trouble. Use gamer strategy consciously to maintain the health and fun in your relationships and recognize your two individual talents and passions. Know when to go light and clear away trash issues versus when to pop your pots and mods and go all in with a mighty Leroy Jenkins! Bonus feature - when figuring out your weaknesses, you will know where you and your partners might need to do some work to help strengthen your relationship.</p>
   datetime: 2018-07-21 11:30:00 -6:00
   endtime: 2018-07-21 13:00:00 -6:00
-  location: Breckenridge 
+  location: Convention Bay C 
   name: Laura Antoniou  
 
 - title: Art of Caning  
@@ -163,7 +205,7 @@
   description: <p>A ‘hands on/hands in’ workshop that teaches the basic techniques and safety concerns about vaginal fisting.  We will explore how having your cunt filled up can lead to being completely connected to your body, your mind, your emotions, and your sense of trust.  And did I mention the potential for super amazing orgasms?!?</p>
   datetime: 2018-07-21 14:00:00 -6:00
   endtime: 2018-07-21 15:30:00 -6:00
-  location: Breckenridge 
+  location: Convention Bay C 
   name: Glenda Rider     
 
 - title: Non-Verbal Power and Surrender
@@ -191,7 +233,7 @@
   description: <p>Let’s skip to the meat of the matter - we want sex, we have sex, and we deserve sex. But how can we reclaim our pleasure rights when we won’t even talk about it with our friends and lovers? In this class we will dive into the fears we have around rejection and body dysphoria, then put that all on a shelf for a few minutes to dive into what actually WORKS! How does humor and joy play into our pursuit of pleasure? What issues face trans* folks or others who are outside the binary who have male partners, female partners, trans* partners, and hell, what do you call the stuff between your legs anyway? Does it matter? We’ll touch on the issues of safer sex as well, in a community where our desperation to be touched the way we need to be touched has led to a heartbreaking habit of doing anything to get our needs met. Breathe deep, and get ready to listen from your heart and share from your spirit.</p>
   datetime: 2018-07-21 16:00:00 -6:00
   endtime: 2018-07-21 17:30:00 -6:00
-  location: Breckenridge
+  location: Convention Bay C
   name: Lee Harrington  
 
 - title: Introduction to Suspension for Sex
@@ -213,7 +255,7 @@
   description: 
   datetime: 2018-07-21 18:00:00 -6:00
   endtime: 2018-07-21 19:00:00 -6:00
-  location: Breckenridge  
+  location: Telluride  
 
 - title: Boys of Leather Game Night
   info: Board games, card games, etc, will be available for all attendees of Thunder.  Everyone is welcome!
@@ -228,6 +270,13 @@
   datetime: 2018-07-21 21:00:00 -6:00
   endtime: 2018-07-22 02:00:00 -6:00
   location: Convention Room A, B, C, D and E<br/><br/>(****There will be distinct areas for men only, women only, and pansexual)  
+
+- title: Membership Only Play Party - Men's Only Space
+  info: (**NO CELL PHONES OR CAMERAS ALLOWED. THEY WILL BE PERMANENTLY CONFISCATED**)
+  description: 
+  datetime: 2018-07-21 21:00:00 -6:00
+  endtime: 2018-07-22 02:00:00 -6:00
+  location: Breckenridge    
 
 - title: Vendor Market
   info: 
@@ -254,7 +303,7 @@
   description: <p>Breath Play is obviously one of the most potentially dangerous SM activities, requiring responsibility, trust and scrupulous safety practices.</p><p>Practitioners describe Breath Play as sensual, euphoric, and erotic.</p><p>The presentation will explore techniques, methods and safety, and will conclude with a question/answer session and hands-on play.</p>
   datetime: 2018-07-22 09:30:00 -6:00
   endtime: 2018-07-22 11:00:00 -6:00
-  location: Breckenridge
+  location: Convention Bay C
   name: Mark Frazier  
   
 - title: Service That Actually Serves US - Giving and Receiving What WE Really Want
@@ -282,7 +331,7 @@
   description: <p>Come out and learn the fine art of skillful manipulation of the female genitalia.  It's amazing how 4 cubic inches of human anatomy can so immediately focus the mind of both a top and a bottom.  This class will explore the varied techniques that can be used to produce a myriad of exquisite sensations - both pleasurable and painful!</p>
   datetime: 2018-07-22 11:30:00 -6:00
   endtime: 2018-07-22 13:00:00 -6:00
-  location: Breckenridge  
+  location: Convention Bay C  
   name: Glenda Rider  
   
 - title: The Art of Biting
@@ -317,7 +366,7 @@
   description: <p>Look, there's a reason why you like to wear black leather with spikes and studs, or intimidating uniforms with gleaming jackboots. You're a goddamn villain, the Ultimate Evil, the Big Bad, the Wicked Fiend or Conniving Vizier, etc. But that doesn't mean you can't have a working empire of evil, allowing for enterprising partners and underlings to prosper in your company. You just need a rule book. Good thing there is one. So come join your fellow malevolent beings as we plot to take over the galaxy - er, work through some of the best advice from a relationship workbook designed just for us.</p>
   datetime: 2018-07-22 14:00:00 -6:00
   endtime: 2018-07-22 15:30:00 -6:00
-  location: Breckenridge
+  location: Convention Bay C
   name: Laura Antoniou    
 
 - title: Mapping Your D/s Archetype
@@ -345,7 +394,7 @@
   description: <p>If you have ever had a scene that lured you with the promise of edgy intensity, but wondered if you could handle the situation before, during or afterward, this discussion is for you! We will explore the reasons some people enjoy play that is VERY edgy psychologically, emotionally and physically, and how you can go about making that fantasy a reality. Inherent in this discussion is the level of responsibility of both / all partners, how to manage risk, and how you can support your partner in the aftermath. Edgy play can be hot, and we will look at ways to avoid some common pitfalls, as well as how to recover with grace and honor when things go off of the planned path.</p><p>*Please be advised - Some highly controversial scenes (i.e. racial or incest play, weaponry, etc.) will be discussed. Please do not attend if these are outside of your comfort zone. Thank you.</p>
   datetime: 2018-07-22 16:00:00 -6:00
   endtime: 2018-07-22 17:30:00 -6:00
-  location: Breckenridge
+  location: Convention Bay C
   name: Mollena Lee Williams-Haas  
   
 
